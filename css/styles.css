@@ -1,5 +1,5 @@
 .logo,
-.block-logo div {
+div.block-logo a[href] {
   color: #4caf50;
   font-size: 20px;
   font-weight: 600;
@@ -20,6 +20,15 @@
 .dropdown {
   position: relative;
   display: inline-block;
+}
+
+.crtf-prct {
+  background-color: #c9ebc9;
+}
+
+.crtf-prct:hover[href] {
+  background-color: #7fc67f;
+  color: white;
 }
 
 .dropdown-content {
