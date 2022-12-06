@@ -253,3 +253,16 @@ body {
 .fas {
   font-size: 30px;
 }
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer {
+  position: absolute;
+  top: 98%;
+  left: 10px;
+}
