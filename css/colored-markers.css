@@ -52,3 +52,10 @@ h1 {
   );
   box-shadow: 0 0 20px 0 hsla(223, 59%, 31%, 0.8);
 }
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}

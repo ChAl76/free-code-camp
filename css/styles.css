@@ -1,11 +1,17 @@
-.logo,
-.block-logo a,
-div.block-logo a[href] {
+.text-logo {
   color: #4caf50;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   font-family: Verdana, sans-serif;
-  text-align: left;
+}
+
+.link-first-page {
+  color: #4caf50;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  text-decoration: none;
 }
 
 .dropbtn {

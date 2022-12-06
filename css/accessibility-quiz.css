@@ -184,3 +184,13 @@ address {
   white-space: nowrap;
   border: 0;
 }
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer {
+  margin: 15px 0;
+}

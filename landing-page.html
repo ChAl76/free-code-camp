@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/landing-page.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo-ot">
+        <img
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+          id="header-img"
+          alt="Original Trombones logo"
+        />
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li>
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#how-it-works">How It Works</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <h1 class="hero-title">Handcrafted, home-made masterpieces</h1>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="LET'S GO" class="btn" />
+        </form>
+      </section>
+
+      <div class="container">
+        <section id="features">
+          <h2 class="features-title">Premium Materials</h2>
+          <p class="dscr">
+            Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+          </p>
+          <h2 class="features-title">Fast Shipping</h2>
+          <p class="dscr">
+            We make sure you recieve your trombone as soon as we have finished
+            making it. We also provide free returns if you are not satisfied.
+          </p>
+          <h2 class="features-title">Quality Assurance</h2>
+          <p class="dscr">
+            For every purchase you make, we will ensure there are no damages or
+            faults and we will check and test the pitch of your instrument.
+          </p>
+        </section>
+        <section id="how-it-works">
+          <iframe
+            id="video"
+            height="300"
+            width="530"
+            src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+            frameborder="0"
+            allowfullscreen=""
+          ></iframe>
+        </section>
+        <section id="pricing">
+          <div class="product" id="tenor">
+            <ul>
+              <li><h2 class="level">Tenor Trombone</h2></li>
+              <li><p>Tenor Trombone is perfect</p></li>
+              <li><h3>$600</h3></li>
+              <li><button class="btn">Select</button></li>
+            </ul>
+          </div>
+          <div class="product" id="bass">
+            <ul>
+              <li><h2 class="level">Bass Trombone</h2></li>
+              <li><p>Bass Trombone is perfect</p></li>
+              <li><h3>$900</h3></li>
+              <li><button class="btn">Select</button></li>
+            </ul>
+          </div>
+          <div class="product" id="valve">
+            <ul>
+              <li><h2 class="level">Valve Trombone</h2></li>
+              <li><p>Valve Trombone is perfect</p></li>
+              <li><h3>$1200</h3></li>
+              <li><button class="btn">Select</button></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="link-first-page">
+        <a class="link-first-page" href="/">RWD</a>
+      </div>
+    </footer>
+  </body>
+</html>

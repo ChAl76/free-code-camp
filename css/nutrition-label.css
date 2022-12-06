@@ -87,3 +87,10 @@ p {
   padding: 0 8px;
   text-indent: -8px;
 }
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}

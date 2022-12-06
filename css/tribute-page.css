@@ -65,3 +65,14 @@ blockquote {
   margin: 0 auto 50px auto;
   text-align: left;
 }
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer {
+  margin-bottom: 15px;
+}
